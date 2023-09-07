@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.headerTitle {
+  font-size: 2rem;
+}
+.headerText {
+  font-size: 1rem;
+}
+header {
+  background-color: #d9d9d9;
+  padding: 1rem;
+}
+ul {
+  background-color: #5a5a5a;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+nav ul li a.active {
+  color: white;
+}
+
+ul li a {
+  color: rgba(206, 203, 203, 0.76);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+ul li a:hover {
+  color: white;
+}
+h1.top-h1 {
+  font-weight: bold;
+}
+main section.top {
+  padding: 2rem;
+}
+main section.directions {
+  display: flex;
+  flex-direction: row;
+}
+p.left {
+  padding: 1rem;
+  margin: 1.25rem 2rem 2rem 3rem;
+}
+p.right {
+  margin: 1rem 3rem 1rem 1rem;
+  padding: 1rem;
+}
+hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+footer img {
+  position: absolute;
+  right: 2rem;
+  margin: -4rem 3rem 0rem 0rem;
+}

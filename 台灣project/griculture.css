@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+header {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 1rem;
+}
+h1.headerTitle {
+  font-size: 2rem;
+}
+
+h3.headerText {
+  font-size: 1rem;
+}
+ul {
+  background-color: #5a5a5a;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+nav ul li a.active {
+  color: white;
+}
+
+ul li a {
+  color: rgba(206, 203, 203, 0.76);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+ul li a:hover {
+  color: white;
+}
+main h1 {
+  font-weight: bold;
+}
+p {
+  font-weight: normal;
+}
+hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+section.c1 {
+  padding: 2rem 1rem 2rem 2rem;
+}
+section.c1 p.p0 {
+  padding: 0rem 0rem 2.5rem 0rem;
+}
+section.c1 ol li {
+  margin: 1rem;
+}
+main section h3.count {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+section.c2 {
+  padding: 1rem 1rem 2rem 2rem;
+}
+section.c3 {
+  padding: 1rem 1rem 2rem 2rem;
+}

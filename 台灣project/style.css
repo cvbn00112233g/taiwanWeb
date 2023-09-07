@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+header {
+  background-color: #d9d9d9;
+  padding: 1rem;
+}
+ul {
+  background-color: #5a5a5a;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+nav ul li a.active {
+  color: white;
+}
+
+ul li a {
+  color: rgba(206, 203, 203, 0.76);
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+ul li a:hover {
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+.headerTitle {
+  font-size: 2rem;
+}
+.headerText {
+  font-size: 1rem;
+}
+main {
+  display: flex;
+  width: 100%;
+}
+section.right,
+section.left {
+  padding: 1.25rem;
+}
+section.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main section.right h4 {
+  font-size: 1.25rem;
+  padding: 1.25rem 0.5rem 1.25rem 0rem;
+}
+section.left {
+  display: flex;
+  flex-direction: column;
+}
+p.p1 {
+  padding: 0.25rem 0rem 1.5rem 0rem;
+}
+main div.lineChart {
+  margin: 0rem 0rem 0rem 15rem;
+}
+div iframe.iframe1 {
+  border-radius: 15%;
+  margin: 2rem 0rem 0rem 0rem;
+}
